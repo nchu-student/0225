@@ -2,6 +2,8 @@
 
 A modern, single-page personal website built with pure **HTML** and **CSS**.
 
+🔗 **Live Demo:** [https://nchu-student.github.io/0225/](https://nchu-student.github.io/0225/)
+
 ![Homepage Screenshot](screenshot.png)
 
 ## ✨ Features
