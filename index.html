@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hao-Quan Liu | Personal Website</title>
+  <meta name="description" content="Personal website of Hao-Quan Liu – student, developer, and lifelong learner." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== Navigation ===== -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">HQ<span class="accent">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== Hero Section ===== -->
+  <section id="hero">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Hao-Quan <span class="accent">Liu</span></h1>
+      <p class="hero-tagline">Student · Developer · Lifelong Learner</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+        <a href="#projects" class="btn btn-outline">View Projects</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+      <p>Scroll Down</p>
+    </div>
+  </section>
+
+  <!-- ===== About Section ===== -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About <span class="accent">Me</span></h2>
+      <div class="about-grid">
+        <div class="about-avatar">
+          <div class="avatar-frame">
+            <div class="avatar-placeholder">HQ</div>
+          </div>
+        </div>
+        <div class="about-text">
+          <p>
+            Hi! I'm <strong>Hao-Quan Liu</strong>, a passionate student at
+            <strong>National Chung Hsing University (國立中興大學)</strong>.
+            I love exploring new technologies, solving challenging problems,
+            and building things that make a difference.
+          </p>
+          <p>
+            My current interests include <strong>Deep Reinforcement Learning</strong>,
+            software development, and creating meaningful digital experiences.
+            When I'm not coding, you'll find me reading, learning new skills, or
+            collaborating with fellow developers.
+          </p>
+          <div class="about-stats">
+            <div class="stat-card">
+              <span class="stat-number" data-target="4">4</span>
+              <span class="stat-label">Years of Study</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">∞</span>
+              <span class="stat-label">Curiosity</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">🎓</span>
+              <span class="stat-label">NCHU</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Skills Section ===== -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">My <span class="accent">Skills</span></h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">🐍</div>
+          <h3>Python</h3>
+          <p>Data science, machine learning, and scripting</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🤖</div>
+          <h3>Deep Learning</h3>
+          <p>Neural networks, reinforcement learning, PyTorch</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🌐</div>
+          <h3>Web Development</h3>
+          <p>HTML, CSS, JavaScript</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🔧</div>
+          <h3>Git & Tools</h3>
+          <p>Version control, collaboration, and CI/CD</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">📊</div>
+          <h3>Data Analysis</h3>
+          <p>Pandas, NumPy, Matplotlib</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">💡</div>
+          <h3>Problem Solving</h3>
+          <p>Algorithms, creative thinking, and teamwork</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects Section ===== -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">My <span class="accent">Projects</span></h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <span class="project-emoji">🎮</span>
+          </div>
+          <div class="project-info">
+            <h3>Deep RL Agent</h3>
+            <p>An intelligent agent trained using deep reinforcement learning to master game environments.</p>
+            <div class="project-tags">
+              <span>Python</span><span>PyTorch</span><span>RL</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <span class="project-emoji">📈</span>
+          </div>
+          <div class="project-info">
+            <h3>Data Dashboard</h3>
+            <p>Interactive data visualization dashboard built for exploring and analyzing datasets.</p>
+            <div class="project-tags">
+              <span>Python</span><span>Pandas</span><span>Plotly</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <span class="project-emoji">🌍</span>
+          </div>
+          <div class="project-info">
+            <h3>Personal Website</h3>
+            <p>This very website! A clean, responsive single-page site built from scratch.</p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact Section ===== -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In <span class="accent">Touch</span></h2>
+      <p class="contact-subtitle">I'd love to hear from you — feel free to reach out!</p>
+      <div class="contact-grid">
+        <a href="mailto:your-email@example.com" class="contact-card">
+          <span class="contact-icon">✉️</span>
+          <h3>Email</h3>
+          <p>your-email@example.com</p>
+        </a>
+        <a href="https://github.com/" target="_blank" rel="noopener" class="contact-card">
+          <span class="contact-icon">🐙</span>
+          <h3>GitHub</h3>
+          <p>github.com/your-username</p>
+        </a>
+        <a href="https://linkedin.com/" target="_blank" rel="noopener" class="contact-card">
+          <span class="contact-icon">💼</span>
+          <h3>LinkedIn</h3>
+          <p>linkedin.com/in/your-profile</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer id="footer">
+    <p>© 2026 Hao-Quan Liu. Built with ❤️</p>
+  </footer>
+
+  <script>
+    // ---- Mobile nav toggle ----
+    const toggle = document.getElementById('nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      toggle.classList.toggle('active');
+    });
+
+    // Close menu on link click
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        toggle.classList.remove('active');
+      });
+    });
+
+    // ---- Navbar scroll effect ----
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // ---- Intersection Observer for fade-in ----
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.15 });
+
+    document.querySelectorAll(
+      '.about-grid, .skill-card, .project-card, .contact-card, .section-title'
+    ).forEach(el => observer.observe(el));
+
+    // ---- Smooth scroll ----
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', e => {
+        e.preventDefault();
+        const target = document.querySelector(anchor.getAttribute('href'));
+        if (target) target.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+</body>
+</html>
